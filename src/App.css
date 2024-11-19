@@ -1,0 +1,104 @@
+.app {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e67e22;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 15px 0;
+}
+
+.trending-button {
+  border: 2px solid orange;
+  color: orange;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.post-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.post-section input {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.share-button {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.feed {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.post {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.engagement span {
+  margin-right: 10px;
+}
+
+.follow-suggestions {
+  width: 200px;
+  background-color:lightgoldenrodyellow;
+  height: 150px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.gambarK{
+  display: flex;
+  background-color: white;
+  gap:15px;
+  list-style-type: none;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.gambarKK{
+  height: 30px;
+}
+.rageyo{
+color: orange
+}
+
+.plus{
+  display: flex;
+  margin-right: 100px;
+  justify-content: center;
+  list-style-type: none;
+}
